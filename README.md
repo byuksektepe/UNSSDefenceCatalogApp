@@ -14,13 +14,8 @@ Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 
 ## Screen Shots
 <p>
-  <img height= "411"  src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/screens/Splash-E1.png" alt="S-E1" />
-  <img height= "411"  src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/screens/Main-E2.png" alt="S-E2" />
-  <img height= "411"  src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/screens/Detail-E3.png" alt="S-E3" />
-  <img height= "411"  src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/screens/Detail-E3-2.png" alt="nC" />
-  <img height= "411"  src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/screens/Loading.png" alt="sE" />
-  <img height= "411"  src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/screens/NoNetworkConnection.png" alt="Nc" />
-  <img height= "411"  src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/screens/AppExit.png" alt="Nc" />
+  <img height= "411"  src="https://github.com/Berkantyuks/UNSSDefenceCatalogApp/blob/master/ScreenVideo/androgif.gif?raw=true" alt="S-E1" />
+
 </p>
 
 
