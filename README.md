@@ -25,10 +25,11 @@ Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Libraries and Tools 
+<li><a href="https://developer.android.com/kotlin/coroutinesa">Coroutine</a></li>
 <li><a href="https://square.github.io/retrofit/">Retrofit2</a></li>
 <li><a href="https://developer.android.com/reference/android/arch/lifecycle/Observer">Observer</a></li> 
 <li><a href="https://bumptech.github.io/glide/doc/download-setup.html">Glide</a></li>
-<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a></li> 
+<li><a href="https://square.github.io/okhttp/">OkHttp</a></li>
 
 
 ## License
