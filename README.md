@@ -8,7 +8,7 @@
 <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
 
 ## App Logo
-<p><img width="500px" src="https://raw.githubusercontent.com/Berkantyuks/H5190068_berkantyuksektepe/main/Oyunlar%C4%B1.png"/></p>
+<p><img width="300px" src="https://raw.githubusercontent.com/Berkantyuks/UNSSDefenceCatalogApp/master/assets/UNSS-svg-ln.png"/></p>
 Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 <br><br>
 
