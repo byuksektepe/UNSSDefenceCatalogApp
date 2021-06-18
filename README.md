@@ -1,6 +1,6 @@
 
 ## UNSS Defence Catalog App
-![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
 ![MVVM](https://img.shields.io/badge/Clean--Code-MVVM-brightgreen.svg)
 ![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)
 <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
