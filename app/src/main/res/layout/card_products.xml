@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/product_img_h"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/cardViewProd"
+        app:layout_constraintStart_toStartOf="@+id/cardViewProd"
+        app:layout_constraintTop_toTopOf="@+id/cardViewProd"
+        app:srcCompat="@drawable/ic_rectangle_60" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewProd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/set_16dp"
+        android:layout_marginEnd="@dimen/set_10dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageProd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product2_img_h"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtProductName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/set_10dp"
+        android:layout_marginTop="@dimen/set_15dp"
+        android:layout_marginEnd="@dimen/set_10dp"
+        android:layout_marginBottom="@dimen/set_10dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewProd"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="@dimen/category_home_w"
+        android:layout_height="@dimen/category_home_h"
+        app:layout_constraintEnd_toEndOf="@+id/cardViewCat"
+        app:layout_constraintStart_toStartOf="@+id/cardViewCat"
+        app:layout_constraintTop_toTopOf="@+id/cardViewCat"
+        app:srcCompat="@drawable/ic_rectangle_60" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewCat"
+        android:layout_width="@dimen/category_home_cardw"
+        android:layout_height="@dimen/category_home_cardh"
+        android:layout_marginTop="@dimen/set_16dp"
+        android:layout_marginEnd="@dimen/set_16dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageCat"
+            android:layout_width="@dimen/category_home_img_w_h"
+            android:layout_height="@dimen/category_home_img_w_h"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtCategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/set_15dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewCat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

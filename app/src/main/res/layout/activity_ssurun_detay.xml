@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.categories.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@dimen/set_50dp_mainLogo"
+        android:layout_height="@dimen/set_50dp_mainLogo"
+        android:layout_marginStart="@dimen/set_15dp"
+        android:layout_marginTop="@dimen/set_15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_unss_regular" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/set_15dp"
+        android:layout_marginTop="@dimen/set_10dp"
+        android:layout_marginEnd="@dimen/set_15dp"
+        android:layout_marginBottom="@dimen/set_10dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/set_20dp"
+                android:text="Urun_Detay"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+            <TextView
+                android:id="@+id/txtCompanyTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/set_10dp"
+                android:text="Kategori_name"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtProdTitle" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="@dimen/set_15dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCompanyTitle">
+
+                <ImageView
+                    android:id="@+id/imageProdPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foreground="@drawable/gradient_main"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/savunmasanayii" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txtProdTitle"
+                android:layout_width="@dimen/match_constraint"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/set_5dp"
+                android:fontFamily="@font/red_hat_display_regular"
+                android:text="Urun_Adi"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/unss_gray_regular"
+                app:layout_constraintBottom_toTopOf="@+id/cardView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCompanyTitle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginLeft="@dimen/set_50dp"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_btnhome_active"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginEnd="@dimen/set_50dp"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_kategori_de"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_search_de"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

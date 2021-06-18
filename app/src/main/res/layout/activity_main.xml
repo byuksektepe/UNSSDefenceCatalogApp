@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.categories.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@dimen/set_50dp_mainLogo"
+        android:layout_height="@dimen/set_50dp_mainLogo"
+        android:layout_marginStart="@dimen/set_15dp"
+        android:layout_marginTop="@dimen/set_15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_unss_regular" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/set_15dp"
+        android:layout_marginTop="@dimen/set_10dp"
+        android:layout_marginEnd="@dimen/set_15dp"
+        android:layout_marginBottom="@dimen/set_10dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/set_5dp"
+                android:text="Türk Savunma Sanayii Ürün Kataloğu Uygulamasına Hoşgeldiniz"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_picture_height"
+                android:layout_marginTop="@dimen/set_20dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCatName">
+
+                <ImageView
+                    android:id="@+id/imageProdPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foreground="@drawable/gradient_main"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/savunmasanayii" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txtCatName"
+                android:layout_width="@dimen/match_constraint"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/set_5dp"
+                android:fontFamily="@font/red_hat_display_regular"
+                android:text="Türk Savunma Sanayii"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="@dimen/match_constraint"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/set_15dp"
+                android:fontFamily="@font/red_hat_display_regular"
+                android:text="Kategoriler"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtDetail" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvKategoriler"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/match_constraint"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                tools:listitem="@layout/card_categories_home">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginStart="@dimen/set_50dp"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_btnhome_active"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginEnd="@dimen/set_50dp"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_kategori_de"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="30dp"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_search_de"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SearchView
+        android:id="@+id/srcKategori"
+        android:layout_width="@dimen/set_search_width"
+        android:layout_height="0dp"
+        android:iconifiedByDefault="true"
+        android:inputType="text"
+        android:layoutDirection="rtl"
+        android:queryHint="Kategorilerde Arayın"
+        android:searchHintIcon="@null"
+        android:searchIcon="@drawable/ic_search"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:theme="@style/AppTheme.SearchView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.splash.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/ssblogo_width"
+        android:layout_height="@dimen/ssblogo_height"
+        android:layout_marginTop="@dimen/set_15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ssb_regular" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="3dp"
+        android:layout_height="@dimen/match_constraint"
+        android:layout_marginBottom="@dimen/set_5dp"
+        android:background="@color/unss_gray_light"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/set_15dp"
+        android:layout_marginTop="@dimen/set_5dp"
+        android:fontFamily="@font/red_hat_display_medium"
+        android:text="Türk Savunma Sanayii Ürün Kataloğu"
+        android:textColor="@color/unss_gray_light"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/divider"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/set_20dp"
+        android:fontFamily="@font/red_hat_display_medium"
+        android:text="T.C. Cumhurbaşkanlığı Savunma Sanayii Başkanlığı"
+        android:textColor="@color/unss_gray_dark"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/splash_unss_logo_w_h"
+        android:layout_height="@dimen/splash_unss_logo_w_h"
+        android:layout_marginBottom="@dimen/set_10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_unss_regular" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/set_10dp"
+        android:fontFamily="@font/red_hat_display_regular"
+        android:text="UNSS Savunma ve Atmosfer Teknolojileri"
+        android:textColor="@color/unss_gray_regular"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/splash_img_1_w"
+        android:layout_height="@dimen/splash_img_1_h"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/iha1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@dimen/splash_img_2_w"
+        android:layout_height="@dimen/splash_img_2_h"
+        android:layout_marginTop="@dimen/set_15dp"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/atakhel" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@dimen/splash_img_3_w"
+        android:layout_height="@dimen/splash_img_3_h"
+        android:layout_marginTop="@dimen/set_15dp"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/iha2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="@dimen/splash_img_4_h"
+        android:layout_marginTop="@dimen/set_15dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/taijet" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="@dimen/splash_img_6_h"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/altay" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="@dimen/splash_img_5_w"
+        android:layout_height="@dimen/splash_img_4_h"
+        android:layout_marginTop="@dimen/set_15dp"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/tcgheybeliada" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

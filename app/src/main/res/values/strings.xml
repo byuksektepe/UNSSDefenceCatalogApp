@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UNSSTurkishDefenceCatalog</string>
+    <string name="login_username">Kullanıcı Adı</string>
+    <string name="login_password">Parola</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="ayarlara_git">Ayarlara git</string>
+    <string name="cikis">Çıkış</string>
+    <string name="no_connection">İnternete bağlı değilsiniz.</string>
+    <string name="sure_for_connect">İnterneti açmak için ayarlara gidin.</string>
+    <string name="et">Evet</string>
+    <string name="hy">Hayır</string>
+    <string name="ok">Tamam</string>
+    <string name="are_you_sure">Uygulamadan çıkmak istediğinize emin misiniz?</string>
+    <string name="exit_message">Devam etmeniz halinde uygulama kapatılacaktır.</string>
+    <string name="atoz">A\'dan Z\'ye Sırala</string>
+    <string name="ztoa">Z\'den A\'ya Sırala</string>
+    <string name="sıralamaturu">Sıralama Türünü Seçiniz</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.categories.MainActivity">
+
+    <Button
+        android:id="@+id/btnSort"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginEnd="@dimen/set_20dp"
+        android:background="@drawable/ic_liste_sade"
+        app:layout_constraintBottom_toBottomOf="@+id/btnList"
+        app:layout_constraintEnd_toStartOf="@+id/btnList"
+        app:layout_constraintTop_toTopOf="@+id/btnList" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@dimen/set_50dp_mainLogo"
+        android:layout_height="@dimen/set_50dp_mainLogo"
+        android:layout_marginStart="@dimen/set_15dp"
+        android:layout_marginTop="@dimen/set_15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_unss_regular" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginTop="@dimen/set_25dp"
+        android:layout_marginEnd="@dimen/set_15dp"
+        android:background="@drawable/ic_liste"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/set_15dp"
+        android:layout_marginTop="@dimen/set_10dp"
+        android:layout_marginEnd="@dimen/set_15dp"
+        android:layout_marginBottom="@dimen/set_10dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtCatName"
+                android:layout_width="@dimen/match_constraint"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/set_5dp"
+                android:fontFamily="@font/red_hat_display_regular"
+                android:text="Ürünler_SubCat"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Ürünler_SubCat" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvUrunler"
+                android:layout_width="@dimen/match_constraint"
+                android:layout_height="@dimen/match_constraint"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCatName"
+                tools:listitem="@layout/card_products" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginStart="@dimen/set_50dp"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_btnhome_active"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginEnd="@dimen/set_50dp"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_kategori_de"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/nav_btn_w_h"
+        android:layout_height="@dimen/nav_btn_w_h"
+        android:layout_marginBottom="@dimen/set_15dp"
+        android:background="@drawable/ic_search_de"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
