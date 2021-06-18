@@ -1,7 +1,5 @@
 
-## Valve Games App 
-<p align="center"><img src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/app/src/main/res/drawable/banner_valve_3.png"/></p>
-
+## UNSS Defence Catalog App
 ![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)
 ![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)
 ![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)
