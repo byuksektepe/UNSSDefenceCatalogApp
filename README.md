@@ -22,7 +22,7 @@ Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 ## Clean Project Architecture
 <p><img align="left" width="244px"; src="https://github.com/Berkantyuks/UNSSDefenceCatalogApp/blob/master/assets/mimari1.png?raw=true"/></p>
 <p><img align="left" width="244px"; src="https://github.com/Berkantyuks/UNSSDefenceCatalogApp/blob/master/assets/mimari2.png?raw=true"/></p>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Libraries and Tools 
 <li><a href="https://square.github.io/retrofit/">Retrofit2</a></li>
