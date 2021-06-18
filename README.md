@@ -1,7 +1,7 @@
 
 ## UNSS Defence Catalog App
-![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)
-![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+![MVVM](https://img.shields.io/badge/Clean--Code-MVVM-brightgreen.svg)
 ![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)
 <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
 
@@ -12,7 +12,7 @@ Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 
 
 
-## Screen Shots
+## Screen Videos
 <p>
   <img height= "411"  src="https://github.com/Berkantyuks/UNSSDefenceCatalogApp/blob/master/ScreenVideo/androgif.gif?raw=true" alt="S-E1" />
 
@@ -20,18 +20,20 @@ Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 
 
 ## Clean Project Architecture
-<p><img align="left" width="244px"; src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/assets/mimari.png"/></p>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<p><img align="left" width="244px"; src="https://github.com/Berkantyuks/UNSSDefenceCatalogApp/blob/master/assets/mimari1.png?raw=true"/></p>
+<p><img align="left" width="244px"; src="https://github.com/Berkantyuks/UNSSDefenceCatalogApp/blob/master/assets/mimari2.png?raw=true"/></p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Libraries and Tools 
+<li><a href="https://developer.android.com/kotlin/coroutinesa">Coroutine</a></li>
 <li><a href="https://square.github.io/retrofit/">Retrofit2</a></li>
 <li><a href="https://developer.android.com/reference/android/arch/lifecycle/Observer">Observer</a></li> 
 <li><a href="https://bumptech.github.io/glide/doc/download-setup.html">Glide</a></li>
-<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a></li> 
+<li><a href="https://square.github.io/okhttp/">OkHttp</a></li>
 
 
 ## License
-Copyright © 2021 Berkant Yüksektepe
+Copyright © 2021 UNSS Savunma ve Atmosfer Teknolojileri / Berkant Yüksektepe
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
