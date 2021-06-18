@@ -31,7 +31,7 @@ Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 
 
 ## License
-Copyright © 2021 Berkant Yüksektepe
+Copyright © 2021 UNSS Savunma ve Atmosfer Teknolojileri / Berkant Yüksektepe
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
