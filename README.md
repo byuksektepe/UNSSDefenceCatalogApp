@@ -12,7 +12,7 @@ Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 
 
 
-## Screen Shots
+## Screen Videos
 <p>
   <img height= "411"  src="https://github.com/Berkantyuks/UNSSDefenceCatalogApp/blob/master/ScreenVideo/androgif.gif?raw=true" alt="S-E1" />
 
@@ -20,7 +20,7 @@ Uygulamada Türk Savunma Sanayii Ürünleri ve Kategorileri Listelenmiştir.
 
 
 ## Clean Project Architecture
-<p><img align="left" width="244px"; src="https://raw.githubusercontent.com/Berkantyuks/Valve_Games_App/master/assets/mimari.png"/></p>
+<p><img align="left" width="244px"; src="https://github.com/Berkantyuks/UNSSDefenceCatalogApp/blob/master/assets/mimari1.png?raw=true"/></p>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Libraries and Tools 
